@@ -1,0 +1,4 @@
+/* страница «Раздел в разработке» */
+.dev { padding-left: var(--content-right); }
+.dev__card { animation: devIn 0.9s var(--ease-out) both; }
+@keyframes devIn { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }

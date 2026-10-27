@@ -146,10 +146,8 @@ html [data-reveal] {
 html [data-reveal="fade"] { transform: none; }
 html [data-reveal="scale"] { transform: scale(0.97) translate3d(0, 16px, 0); }
 html [data-reveal].is-in { opacity: 1; transform: none; }
-/* после появления JS снимает data-reveal — дальше работают обычные hover-анимации */
+/* после появления React снимает data-reveal — дальше работают обычные hover-анимации */
 
-/* без JS всё видно */
-html.no-js [data-reveal] { opacity: 1; transform: none; }
 
 /* ---------------------------------------------------------
    Сайдбар (фиксированный, раскрывается при наведении)
