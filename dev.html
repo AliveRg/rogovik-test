@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Раздел в разработке — VITRINA design studio</title>
+  <meta name="theme-color" content="#07080f">
+  <link rel="icon" type="image/png" href="assets/img/logo-cube.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Unbounded:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .dev { padding-left: var(--content-right); }
+    .dev__card { animation: devIn 0.9s var(--ease-out) both; }
+    @keyframes devIn { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+  </style>
+</head>
+<body>
+  <main class="dev">
+    <div class="dev__card">
+      <img class="dev__cube" src="assets/img/logo-cube.png" alt="">
+      <h1 class="dev__title">Раздел в разработке</h1>
+      <p class="dev__text">Мы уже собираем эту страницу. А пока можно вернуться на главную или сразу написать нам.</p>
+      <div class="dev__actions">
+        <a class="btn btn--primary" href="index.html">На главную</a>
+        <a class="btn btn--secondary" href="https://t.me/rogovuk" target="_blank" rel="noopener">Написать в Telegram</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
